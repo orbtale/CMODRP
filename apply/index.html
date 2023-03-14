@@ -1,0 +1,49 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,1,0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@500&family=Roboto:wght@700&family=Secular+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,1,-25" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,1,-25" />
+        <title>CMODRP | Apply </title>
+    </head>
+
+    <body>
+        <div class="tbar">
+            <span class="material-symbols-outlined" id="home" style="float: left; margin-left: -2;" alt="home">home</span>
+            <span class="material-symbols-outlined" id="forums" alt="forums">captive_portal</span>
+            <span class="material-symbols-outlined" id="apply" alt="apply" style="float: right; margin-right: 5%;">file_open</span>
+        </div>
+
+
+        <div class="applyform">
+            <form>
+                <input type="text" name="fname" placeholder="First Name" size=20 required>
+                <input type="text" name="username" placeholder="Steam Username" size=20 required>
+                <input type="text" name="discord" placeholder="Discord Tag (include #)" size=20 required>
+                <input type="text" name="email" placeholder="Email" size=20 required>
+                <br>
+                <label>
+                    <input type="checkbox" id="lua_exp_check" name="lua_exp_check">
+                    Do You Have Any Lua Experience?
+                </label>
+                <br>
+                <label for="sl_lua" id="sl_lua_text"></label>
+                <br>
+                <select class="selhidden" name="sl_lua" id="sl_lua">
+                    <option value="basic">Little</option>
+                    <option value="medium">Average</option>
+                    <option value="fluent">Fluent</option>
+                </select>
+                <br>
+                <textarea name="whyadmin" placeholder="Why would you like to be an admin on CMOD" cols="20" rows="10" minlength="10" maxlength="500" required></textarea>
+            </form>    
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
