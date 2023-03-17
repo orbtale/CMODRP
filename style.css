@@ -49,7 +49,7 @@ html{
 }
 
 .pop>h1{
-    color: black;
+    color: rgb(0, 145, 255);
     font-family: "Coolvetica";
     letter-spacing: 3;
 }
@@ -61,10 +61,10 @@ html{
     padding-top: 5px;
     padding-bottom: 20%;
     background-color: white;
+    min-height: min-content;
+    max-height: max-content;
     margin-top: 50px;
     text-align: center;
-    min-width: min-content;
-    max-width: max-content;
-    border-radius: 10px;;
+    border-radius: 10px;
     animation: popup_slide 1.5s ease 0s 1 normal forwards;
 }
