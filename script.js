@@ -10,8 +10,8 @@ home.onclick = function(){
 
 /*forums.onclick = function(){
     window.location.href = "/forums/index.html"
-}
+}}*/
 
 apply.onclick = function(){
     window.location.href = "/apply/index.html"
-}*/
+}
