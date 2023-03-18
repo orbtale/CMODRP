@@ -6,7 +6,7 @@ home.onclick = function(){
 }
 
 forums.onclick = function(){
-    window.location.href = "/forums/index.html"
+    alert("Coming soon ;)")
 }
 
 apply.onclick = function(){

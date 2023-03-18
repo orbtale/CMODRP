@@ -8,9 +8,9 @@ home.onclick = function(){
     window.location.href = "/index.html";
 }
 
-/*forums.onclick = function(){
-    window.location.href = "/forums/index.html"
-}}*/
+forums.onclick = function(){
+    alert("Coming soon ;)")
+}
 
 apply.onclick = function(){
     window.location.href = "/apply/index.html"

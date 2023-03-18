@@ -7,14 +7,13 @@ html{
     padding-left: 2.5%;
     padding-right: 3%;
     margin-top: 0.5%;
-    margin-bottom: 5%;
     padding-top: 8px;
     padding-bottom: 8px;
     border-radius: 30px;
     text-align: center;
-    background-color: white;
+    background-color: #222;
     text-decoration: none;
-    color: #111;
+    color: #ffffff;
     width: max-content;
     font-size: larger;
     display: flex;
@@ -48,3 +47,4 @@ html{
 .selhidden{
     visibility: hidden;
 }
+
